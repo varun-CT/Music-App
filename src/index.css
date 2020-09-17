@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-size: 20px;
+    padding: 2.5%;
+    font-family: 'Times New Roman';
+}
+
+h1, h2, h3 {
+    font-family: 'EconomicalBold';
+}
+
+.track {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.track-image {
+    width: 200px;
+    height: 200px;
+}
+
+.track-name {
+    position: absolute;
+    width: 250px;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.track-status {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    padding: 10px;
+    opacity: 0.8;
+    
+}
